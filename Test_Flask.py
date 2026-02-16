@@ -6,4 +6,3 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-# This is just a test comment.
