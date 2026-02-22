@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<center>
+
+    <h1>
+        Schindlers Shopping List
+</h1>
+{% if items %}
+{% for item in items %}
+<p>{{ item['name'] }}</p>
+{% endfor %}
+{% else %}
+<p>Noch keine Einträge vorhanden.</p>
+{% endif %}
+</center>
+</body>
+</html>

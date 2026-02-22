@@ -8,15 +8,15 @@ h1 {
     font-size: 250%;
 }
 
-.btn-orange {
+.createList {
     background-color: #C66140;
     background-size: revert;
     color: #faf9f5;
-    font-size: 2em;
+    font-size: 1em;
     padding: revert-layer;
     font-family: Verdana, sans-serif;
-    height: 75px;
-    width: 220px;
+    height: 20%;
+    width: 20%;
     margin: 1em;
     border-radius: 1.5em;
     border: none;
