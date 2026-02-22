@@ -1,0 +1,27 @@
+body {
+    background-color: #faf9f5;
+    color: #3D3D3A;
+}
+
+h1 {
+    font-family: "Apple Symbols";
+    font-size: 250%;
+}
+
+.btn-orange {
+    background-color: #C66140;
+    background-size: revert;
+    color: #faf9f5;
+    font-size: 2em;
+    padding: revert-layer;
+    font-family: Verdana, sans-serif;
+    height: 75px;
+    width: 220px;
+    margin: 1em;
+    border-radius: 1.5em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
